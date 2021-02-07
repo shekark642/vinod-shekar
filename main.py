@@ -66,6 +66,8 @@ for x in (usernumberlist2):
 denominatorbeforesqrt=(float(sum(firstlist)))*(float(sum(secondlist)))
 denominator=math.sqrt(denominatorbeforesqrt)
 print("denominator = ", denominator)
+
+#prints the answer
 answer = ((float(numerator))/(float(denominator)))
 print("")
 print(bcolors.OKGREEN+bcolors.BOLD+"correlation coefficient = ", answer)
